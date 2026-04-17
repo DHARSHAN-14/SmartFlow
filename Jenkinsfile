@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-    DOCKERHUB_USERNAME    = 'yourdockerhubusername'
+    DOCKERHUB_USERNAME    = 'dharshan14'
     IMAGE_BACKEND         = "${DOCKERHUB_USERNAME}/smartflow-backend"
     IMAGE_FRONTEND        = "${DOCKERHUB_USERNAME}/smartflow-frontend"
     IMAGE_TAG             = "${BUILD_NUMBER}"
